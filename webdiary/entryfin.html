@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Entry Form</title>
+    <link rel="stylesheet" href="./ea.css">
+
+
+  </head>
+<body>
+<div class="wrapper bg-dark mt-sm-5">
+    <form class="form" method="get" action="">
+    <div class="py-2">
+    <div class="form-group">
+
+        <div class="row py-2">
+            <div class="col-md-6"><label for="date" >Date:</label> <input class="bg-light form-control" type="date" id="date" name="date"></div>
+            <div class="col-md-6"><label for="time" >Time:</label> <input class="bg-light form-control" type="time" id="time" name="time"></div>
+        </div>
+
+         <div class="row py-2">
+            <div class="col-md-6 pt-md-0 pt-3"> <label for="text">Title: </label> <input type="text" class="bg-light form-control" placeholder="Enter a title" name="title"> </div>
+        </div>
+
+        <div class="row py-2">
+            <textarea placeholder="Write something about your day." class="bg-light form-control" id="entry" rows="10"></textarea>
+        </div>
+
+        <div class="py-3 pb-4 border-bottom"> <button type="submit" class="btn mr-3" name="save">Save</button> <button type="reset" class="btn">reset</button> </div>
+    </div>
+    </form>
+</div>
+</body>
+</html>
